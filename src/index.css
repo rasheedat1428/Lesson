@@ -1,5 +1,5 @@
 h1 {
-  color: red;
+  color: yellowgreen;
 }
 nav {
   border-bottom: 1px solid blue;
@@ -14,7 +14,40 @@ nav li {
 nav li a {
   text-decoration: none;
 }
+#myId {
+  font-weight: 800;
+  color: rgb(179, 142, 163);
+}
+.div {
+border: 1px solid black;
+border-radius: 8px;
+background-color: aqua;
+align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 500px;
+margin-left: 300px;
+padding: 10px;
+}
 
+.divi {
+  border: 1px solid black;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 200px;
+  padding: 10px;
+  background-color: burlywood;
+  }
+  #it {
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(8, 8, 8);
+  }
 nav ul {
   display: flex;
   gap: 5px;
