@@ -6,6 +6,12 @@ import ContactUs from './Pages/ContactUs';
 import HomePage from './Pages/HomePage';
 import Layout from './Pages/Layout';
 import PageNotFound from './Pages/PageNotFound';
+import ColorState from './State/ColorState';
+import Counter from './State/Counter';
+import Hook from './State/Hook';
+
+
+
 //import Name, {addition, subtraction, division} from "./Components/Name";
 //import Result, {Grade} from './Components/Result';
 //import Destructuring from './Components/Destructuring';
@@ -24,7 +30,12 @@ function App() {
       </Routes>
       </Layout>
       </BrowserRouter>
-  
+      <div> 
+        <Hook/>
+        <Counter />
+        <ColorState />
+      </div>
+      
       { /*<EventComponents />
       <EventComponent1 name={"Rash"} /> 
       <EventComponent2 name={"Lat"} /> 
