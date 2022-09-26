@@ -1,14 +1,15 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+//import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import AboutUs from './Pages/AboutUs';
-import ContactUs from './Pages/ContactUs';
-import HomePage from './Pages/HomePage';
-import Layout from './Pages/Layout';
-import PageNotFound from './Pages/PageNotFound';
+//import AboutUs from './Pages/AboutUs';
+//import ContactUs from './Pages/ContactUs';
+//import HomePage from './Pages/HomePage';
+//import Layout from './Pages/Layout';
+//import PageNotFound from './Pages/PageNotFound';
 import ColorState from './State/ColorState';
 import Counter from './State/Counter';
 import Hook from './State/Hook';
+import HookState from './State/HookState';
 
 
 
@@ -20,7 +21,8 @@ import Hook from './State/Hook';
 function App() { 
   return (
     <div>
-     <BrowserRouter>
+     {/*
+      <BrowserRouter>
       <Layout>
       <Routes>
         <Route path="" element={<HomePage/>} />
@@ -30,7 +32,9 @@ function App() {
       </Routes>
       </Layout>
       </BrowserRouter>
+*/}
       <div> 
+        <HookState />
         <Hook/>
         <Counter />
         <ColorState />
