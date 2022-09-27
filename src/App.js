@@ -8,6 +8,7 @@ import './App.css';
 //import PageNotFound from './Pages/PageNotFound';
 import ColorState from './State/ColorState';
 import Counter from './State/Counter';
+import Form1 from './State/Form1';
 import Hook from './State/Hook';
 import HookState from './State/HookState';
 
@@ -21,6 +22,7 @@ import HookState from './State/HookState';
 function App() { 
   return (
     <div>
+      <Form1 />
      {/*
       <BrowserRouter>
       <Layout>
