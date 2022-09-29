@@ -8,9 +8,11 @@ import './App.css';
 //import PageNotFound from './Pages/PageNotFound';
 import ColorState from './State/ColorState';
 import Counter from './State/Counter';
-import Form1 from './State/Form1';
+//import Form1 from './State/Form1';
 import Hook from './State/Hook';
 import HookState from './State/HookState';
+import CustomUseEffect from './useEffect/CustomUseEffect';
+import Posts from './useEffect/Posts';
 
 
 
@@ -22,7 +24,9 @@ import HookState from './State/HookState';
 function App() { 
   return (
     <div>
-      <Form1 />
+      <Posts />
+      <CustomUseEffect />
+    { /* <Form1 /> */}
      {/*
       <BrowserRouter>
       <Layout>
