@@ -1,18 +1,16 @@
 
 //import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-//import AboutUs from './Pages/AboutUs';
-//import ContactUs from './Pages/ContactUs';
-//import HomePage from './Pages/HomePage';
-//import Layout from './Pages/Layout';
-//import PageNotFound from './Pages/PageNotFound';
+
 import ColorState from './State/ColorState';
 import Counter from './State/Counter';
-//import Form1 from './State/Form1';
+
 import Hook from './State/Hook';
 import HookState from './State/HookState';
-import CustomUseEffect from './useEffect/CustomUseEffect';
-import Posts from './useEffect/Posts';
+
+
+import Todo from './useEffect/Todo';
+import TodoExample from './useEffect/TodoExample';
 
 
 
@@ -24,8 +22,7 @@ import Posts from './useEffect/Posts';
 function App() { 
   return (
     <div>
-      <Posts />
-      <CustomUseEffect />
+      <TodoExample />
     { /* <Form1 /> */}
      {/*
       <BrowserRouter>
@@ -39,12 +36,6 @@ function App() {
       </Layout>
       </BrowserRouter>
 */}
-      <div> 
-        <HookState />
-        <Hook/>
-        <Counter />
-        <ColorState />
-      </div>
       
       { /*<EventComponents />
       <EventComponent1 name={"Rash"} /> 
