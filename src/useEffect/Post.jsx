@@ -10,4 +10,4 @@ const Post = ({post}) => {
     </div>
   )
 }
-export default Post
+export default Post;
